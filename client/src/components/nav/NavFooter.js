@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactForm from '../forms/ContactForm'
 import './Nav.css'
 
 export default function NavFooter() {
@@ -6,7 +7,7 @@ export default function NavFooter() {
     <div className='footer'>
       <p>Sitemap</p>
       <p>Social Links</p>
-      <p>Contact Form</p>
+      <ContactForm />
     </div>
   )
 }

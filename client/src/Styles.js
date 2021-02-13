@@ -31,13 +31,12 @@ align-items: center;
 flex-wrap: nowrap;
 margin-bottom: 5em;
 
-
-  img {
-    width: 35rem;
-    border-radius: 3em;
-    background-color: antiquewhite;
-    border: .4em solid antiquewhite;
-  }
+img {
+  width: 35rem;
+  border-radius: 3em;
+  background-color: antiquewhite;
+  border: .4em solid antiquewhite;
+}
 }
 
 `
@@ -86,14 +85,13 @@ justify-content: center;
 flex-wrap: wrap;
 margin-top: 5em;
 
-h1 {
+h2{
   width: 100%;
+  padding: 1em;
 }
 ul {
   list-style: none;
-  
   li {
-    
   }
 }
 
@@ -108,7 +106,6 @@ ul {
     li {
       margin: 1em;
       padding: 0 2em;
-  
     }
   }
 

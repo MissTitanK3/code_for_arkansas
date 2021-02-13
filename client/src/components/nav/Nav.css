@@ -9,6 +9,15 @@
   margin-bottom: 2em;
 }
 
+.name {
+  display: flex;
+  align-items: center;
+}
+
+.name > h1 {
+  font-size: 2.5em;
+}
+
 .navbar,
 .footer {
   /* background-color: #060b26; */

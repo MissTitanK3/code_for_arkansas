@@ -20,10 +20,13 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: "crimson" }}>
         <div className="navbar">
-          <Link to='/'>
-            <img className='logo' src={ARLogo} alt="" />
-          </Link>
-          <h1 className='hideMe'>Code For Little Rock</h1>
+          <div className='name'>
+
+            <Link to='/'>
+              <img className='logo' src={ARLogo} alt="" />
+            </Link>
+            <h1 className='hideMe'>Code For Little Rock</h1>
+          </div>
           <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>

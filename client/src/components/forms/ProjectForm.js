@@ -4,9 +4,10 @@ import { CardWrapper, FormWrapper, PrimaryBtn } from '../../Styles'
 export default function ProjectForm() {
   return (
     <CardWrapper>
+      <h2>Do you wanna build a...</h2>
       <FormWrapper>
         <form action="submit" method="post">
-          <label>Submit Your Project Concept</label>
+          <label>... Project Concept</label>
           <input type="text" placeholder='Full Name' />
           <label>Full Name</label>
           <input type="email" placeholder='Email' />

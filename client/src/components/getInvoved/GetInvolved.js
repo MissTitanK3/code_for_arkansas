@@ -5,7 +5,7 @@ import { Card, CardWrapper, PrimaryBtn } from '../../Styles';
 export default function GetInvolved() {
   return (
     <CardWrapper>
-      <h1>Get Involved</h1>
+      <h2>Get Involved</h2>
       <ul>
         <li>
           <Card>

@@ -5,7 +5,7 @@ import { Card, CardWrapper } from '../../Styles';
 export default function WhatWeDo() {
   return (
     <CardWrapper>
-      <h1>What we do!</h1>
+      <h2>What we do!</h2>
       <ul>
         <li>
           <Card>
