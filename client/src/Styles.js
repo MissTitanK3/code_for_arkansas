@@ -1,25 +1,27 @@
 import styled from 'styled-components'
 
 const HeroWrapper = styled.div`
-background-color: darkgray;
+/* background-color: darkgray; */
+color: whitesmoke;
 display: flex;
 flex-wrap: wrap;
 text-align: center;
 max-width: 1200px;
 justify-content: center;
+
 p {
   font-size: 1.4em;
   font-weight: bolder;
 }
 
 img {
-  width: 22em;
+  width: 100%;
+  height: 100%;
   margin: auto;
   border-radius: 2em;
-  
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 791px) {
 display: flex;
 justify-content: center;
 margin: auto;
@@ -45,13 +47,20 @@ display: flex;
 justify-content: center;
 flex-wrap: wrap;
 margin: auto;
+margin-top: 14em;
+p {
+  padding-right: 1em;
+}
+h1 {
+  padding: 1em;
+}
 `
 
 const Card = styled.div`
 width: 95%;
 overflow: hidden;
 margin: 1em;
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 791px) {
   width: 13em;
   display: flex;
   flex-wrap: wrap;
@@ -69,12 +78,13 @@ height: 100%;
 text-align: center;
 background-color: #060b46;
 color: antiquewhite;
-margin-bottom: 5em;
+margin: 2em 0;
 box-shadow: .4em .8em 2em black;
 width: 100vw;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+margin-top: 5em;
 
 h1 {
   width: 100%;
@@ -87,7 +97,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 791px) {
   ul {
     display: flex;
     justify-content: center;
@@ -123,7 +133,7 @@ form {
     margin: .4em;
   }
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 791px) {
   width: 50vw;
   form {
     text-align: left;
@@ -137,8 +147,8 @@ const PrimaryBtn = styled.button`
 background-color: crimson;
 border: none;
 border-radius: .4em;
-padding: .4em;
-font-weight: bolder;
+padding: .5em;
+font-weight: bold;
 margin: 2em;
 &:hover {
   background-color: #060b46;

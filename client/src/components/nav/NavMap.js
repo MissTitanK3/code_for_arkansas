@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 import { NavMapData } from "./NavMapData";
 
 
-import Logo from '../../img/logo.png'
+import ARLogo from '../../img/CFArkansas_Logo.png'
 import "./Nav.css";
 
 function Navbar() {
@@ -18,9 +18,12 @@ function Navbar() {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#a9a9a9" }}>
+      <IconContext.Provider value={{ color: "crimson" }}>
         <div className="navbar">
-          <img src={Logo} alt="" />
+          <Link to='/'>
+            <img className='logo' src={ARLogo} alt="" />
+          </Link>
+          <h1 className='hideMe'>Code For Little Rock</h1>
           <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
