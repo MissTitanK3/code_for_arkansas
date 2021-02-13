@@ -37,11 +37,6 @@
 .hideMe {
   color: crimson;
 }
-@media screen and (max-width: 791px) {
-  .hideMe {
-    display: none;
-  }
-}
 .menu-bars {
   margin-right: 2rem;
   font-size: 2rem;
@@ -108,4 +103,76 @@
 
 span {
   margin-left: 16px;
+}
+
+.footer {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer > ul {
+  color: antiquewhite;
+  list-style: none;
+  display: flex;
+  font-size: 1.5em;
+}
+.footer > ul > li {
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  list-style: none;
+  padding: 0 1em;
+}
+.footer > ul > li > a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  list-style: none;
+  padding: 0 1em;
+}
+
+.footerForm > h3 {
+  text-align: center;
+}
+
+input,
+textarea,
+label {
+  padding: 0.3em;
+  margin: 0.3em;
+  border: none;
+  border-radius: 0.1em;
+}
+
+.flexing {
+  font-size: larger;
+  width: 49%;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 791px) {
+  .hideMe {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+  }
+  .footer > ul {
+    padding: 1.5em 0;
+    margin: 1.5em 0;
+  }
+  .footerForm {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flexing {
+    margin: auto;
+    text-align: left;
+    flex-direction: column;
+  }
 }
