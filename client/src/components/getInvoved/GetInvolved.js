@@ -1,6 +1,6 @@
 import React from 'react'
 import * as FaIcons from "react-icons/fa";
-import { Card, CardWrapper, FormWrapper, PrimaryBtn } from '../../Styles';
+import { Card, CardWrapper, PrimaryBtn } from '../../Styles';
 
 export default function GetInvolved() {
   return (
@@ -29,19 +29,6 @@ export default function GetInvolved() {
           </Card>
         </li>
       </ul>
-      <FormWrapper>
-        <form action="submit" method="post">
-          <label>Submit Your Project Concept</label>
-          <input type="text" placeholder='Full Name' />
-          <label>Full Name</label>
-          <input type="email" placeholder='Email' />
-          <label>Email</label>
-          <input type="tel" placeholder='Phone Number' />
-          <label>What is your idea?</label>
-          <textarea name='Your Idea' rows='10' cols='30' placeholder='What is your idea?'></textarea>
-          <PrimaryBtn type="submit">Submit</PrimaryBtn>
-        </form>
-      </FormWrapper>
     </CardWrapper>
   )
 }

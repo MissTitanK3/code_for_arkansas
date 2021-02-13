@@ -121,7 +121,7 @@ background-color: whitesmoke;
 border-radius: 1em;
 width: 90vw;
 padding: 1em;
-margin-bottom: 2em;
+margin: 2em 0;
 form {
   color: black;
   text-align: left;
