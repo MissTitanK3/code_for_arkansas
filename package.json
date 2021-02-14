@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "json-server": "^0.16.3"
+  },
+  "name": "code_for_arkansas",
+  "version": "1.0.0",
+  "description": "Code For Arkansas",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000 --middlewares ./range.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissTitanK3/code_for_arkansas.git"
+  },
+  "author": "Tianna McCoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MissTitanK3/code_for_arkansas/issues"
+  },
+  "homepage": "https://github.com/MissTitanK3/code_for_arkansas#readme"
+}
