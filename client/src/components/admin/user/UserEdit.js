@@ -1,5 +1,5 @@
 import React from 'react'
-import { Edit, SimpleForm, TextInput, BooleanField } from 'react-admin'
+import { Edit, SimpleForm, TextInput } from 'react-admin'
 
 const UserEdit = (props) => {
   return (
@@ -8,7 +8,7 @@ const UserEdit = (props) => {
         <TextInput disabled source='id' />
         <TextInput source='userName' />
         <TextInput source='userEmail' />
-        <BooleanField source='userRole' />
+        <TextInput source='userRole' />
       </SimpleForm>
     </Edit>
   )

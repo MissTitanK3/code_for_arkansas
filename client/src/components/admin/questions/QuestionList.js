@@ -9,8 +9,8 @@ const Conceptlist = (props) => {
       <TextField source='email' />
       <EmailField source='subject' />
       <EmailField multiline source='message' />
-      <EditButton basePath='./concept' />
-      <DeleteButton basePath='./concept' />
+      <EditButton basePath='./questions' />
+      <DeleteButton basePath='./questions' />
     </Datagrid>
   </List>
 }
