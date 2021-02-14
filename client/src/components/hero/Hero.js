@@ -8,7 +8,7 @@ export default function Hero() {
     <HeroWrapper>
       <div className="text">
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis assumenda temporibus laboriosam natus reprehenderit esse, nobis consequatur veniam placeat quisquam rerum odit dignissimos illum. Dolores asperiores veritatis delectus quidem. Magnam?
+          We intend this to be a portal for Arkansans to find the technology and reach they need to have a greater range to those who need it. We will provide resources for community organizers and non-profit organizations.
       </p>
         <PrimaryBtn>Contact Us</PrimaryBtn>
       </div>

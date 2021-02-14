@@ -1,10 +1,13 @@
 import React from 'react'
+import { PrimaryBtn } from '../../Styles'
 
 export default function ContactForm() {
   return (
     <div className='contactForm'>
       <form action="submit">
-        <h3>Have a question?</h3>
+        <div className='qTitle'>
+          <h3>Have a question?</h3>
+        </div>
         <div className='flexing'>
           <div>
             <label>
@@ -26,6 +29,9 @@ export default function ContactForm() {
             </label>
             <textarea name="text" id="text" cols="30" rows="10"></textarea>
           </div>
+        </div>
+        <div className='specBtn'>
+          <PrimaryBtn >Submit</PrimaryBtn>
         </div>
       </form>
     </div>

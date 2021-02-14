@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavMap from './NavMap';
 import About from '../about/About'
 import Contact from '../contact/Contact'
-import OrgBio from '../orgbio/OrgBio'
 import Home from '../home/Home';
+import AdminHome from '../admin/Admin';
+import Newsfeed from '../newsfeed/Newsfeed';
 
 function NoMatch() {
   return (
@@ -23,7 +24,8 @@ export default function Nav() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
-        <Route path="/org-bio" component={OrgBio} />
+        <Route path="/newsfeed" component={Newsfeed} />
+        <Route path="/adminhome" component={AdminHome} />
         <Route path="*" component={NoMatch} />
       </Switch>
     </Router>

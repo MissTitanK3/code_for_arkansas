@@ -73,7 +73,7 @@ margin: 1em;
 
 const CardWrapper = styled.div`
 margin: auto;
-height: 100%;
+height: 150%;
 text-align: center;
 background-color: #060b46;
 color: antiquewhite;
@@ -147,11 +147,40 @@ border-radius: .4em;
 padding: .5em;
 font-weight: bold;
 margin: 2em;
+width: 20em;
 &:hover {
   background-color: #060b46;
   color: whitesmoke;
   border: 3px solid crimson;
 }
+`
+
+const SiteMapWrapper = styled.div`
+font-size: large;
+ul {
+  list-style: none;
+  li {
+    padding: .3em;
+    a {
+      color: unset;
+      text-decoration: none;
+    }
+  }
+}
+`
+const PostWrapper = styled.div`
+height: 100%;
+margin-top: 100px;
+color: whitesmoke;
+display: flex;
+`
+
+const NewsWrapper = styled.div`
+display: flex;
+background-color: green;
+width: 390px;
+height: 400px;
+margin: 15px;
 `
 
 export {
@@ -160,5 +189,8 @@ export {
   CardWrapper,
   FormWrapper,
   HomeWrapper,
-  PrimaryBtn
+  PrimaryBtn,
+  SiteMapWrapper,
+  PostWrapper,
+  NewsWrapper
 }

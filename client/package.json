@@ -1,5 +1,6 @@
 {
   "name": "client",
+  "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +9,10 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
+    "axios": "^0.21.1",
+    "ra-data-simple-rest": "^3.10.4",
     "react": "^17.0.1",
+    "react-admin": "^3.12.2",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",

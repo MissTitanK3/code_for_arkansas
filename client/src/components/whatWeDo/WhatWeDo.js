@@ -27,7 +27,7 @@ export default function WhatWeDo() {
         </li>
         <li>
           <Card>
-            <h3>Depoloy&nbsp;&nbsp;&nbsp;<FaIcons.FaDolly size='7em' /></h3>
+            <h3>Deploy&nbsp;&nbsp;&nbsp;<FaIcons.FaDolly size='7em' /></h3>
             <p>And then when the project is complete, we will give you the keys to your brand new platform.</p>
           </Card>
         </li>

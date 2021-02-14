@@ -8,11 +8,13 @@ export default function ProjectForm() {
       <FormWrapper>
         <form action="submit" method="post">
           <label>... Project Concept</label>
-          <input type="text" placeholder='Full Name' />
+          <br />
           <label>Full Name</label>
-          <input type="email" placeholder='Email' />
+          <input type="text" name="name" id="name" placeholder='Full Name' />
           <label>Email</label>
-          <input type="tel" placeholder='Phone Number' />
+          <input type="email" name="email" id="email" placeholder='Email' />
+          <label>Phone Number</label>
+          <input type="tel" name='tel' id='tel' placeholder='Phone Number' />
           <label>What is your idea?</label>
           <textarea name='Your Idea' rows='10' cols='30' placeholder='What is your idea?'></textarea>
           <PrimaryBtn type="submit">Submit</PrimaryBtn>
