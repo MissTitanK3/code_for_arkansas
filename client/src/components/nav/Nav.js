@@ -25,7 +25,7 @@ export default function Nav() {
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/newsfeed" component={Newsfeed} />
-        <Route path="/adminhome" component={AdminHome} />
+        <Route path="/admin" component={AdminHome} />
         <Route path="*" component={NoMatch} />
       </Switch>
     </Router>

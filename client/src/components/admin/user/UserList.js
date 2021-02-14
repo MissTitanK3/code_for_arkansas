@@ -5,9 +5,9 @@ const Userlist = (props) => {
   return <List {...props}>
     <Datagrid>
       <TextField source='id' />
-      <TextField source='uRole' />
-      <TextField source='uName' />
-      <EmailField source='uEmail' />
+      <TextField source='userRole' />
+      <TextField source='userName' />
+      <EmailField source='userEmail' />
       <DateField source='joined' />
       <EditButton basePath='./user' />
       <DeleteButton basePath='./user' />

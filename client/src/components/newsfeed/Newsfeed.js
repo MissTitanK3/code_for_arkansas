@@ -26,13 +26,25 @@ export default function Newsfeed() {
 
   return (
     <PostWrapper>
-      <h2>Latest News from Code For Little Rock</h2>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Latest News from Code For Little Rock</h1>
       <div>
         {posts.map((post) => (
           <NewsWrapper key={post.id}>
-            <span>Title: {post.title}</span>
-            <span>Date: {post.publishedAt}</span>
-            <span>Body: {post.body}</span>
+            <div>
+              <h3>{post.title}</h3>
+            </div>
+            <h5>Date: {post.publishedAt}</h5>
+            <div>
+              <span>{post.body}</span>
+              <span>Author: {post.author}</span>
+            </div>
           </NewsWrapper>
         ))}
 

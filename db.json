@@ -2,24 +2,28 @@
   "posts": [
     {
       "id": "1",
+      "author": "Tianna McCoy",
       "title": "Introduction",
       "body": "This is the beginning of our story.",
       "publishedAt": "2/13/2021"
     },
     {
       "id": "2",
+      "author": "Tianna McCoy",
       "title": "Testing Local Storage",
       "body": "This will confirm that I am able to make post requests to the local database",
       "publishedAt": "2/13/2021"
     },
     {
       "title": "Testing id genorator",
+      "author": "Tianna McCoy",
       "body": "This will confirm that I am able to make post requests to the local database, and create id's",
       "publishedAt": "2/13/2021",
       "id": "ofLyxfd"
     },
     {
       "title": "testing",
+      "author": "Tianna McCoy",
       "body": "Testing adding posts from admin",
       "publishedAt": "2021-02-13",
       "id": "FHrjkSO"
@@ -28,22 +32,22 @@
   "users": [
     {
       "id": "1",
-      "uName": "Tianna McCoy",
-      "uEmail": "tianna.m.mccoy@gmail.com",
+      "userName": "Tianna McCoy",
+      "userEmail": "tianna.m.mccoy@gmail.com",
       "joined": "2/13/2021",
-      "uRole": "SuperAdmin"
+      "userRole": "SuperAdmin"
     }
   ],
   "concepts": [
     {
       "id": "1",
-      "fName": "Tianna McCoy",
+      "fullName": "Tianna McCoy",
       "email": "tianna.m.mccoy@gmail.com",
       "phoneNumber": "4792220121",
       "desc": "Code for Arknasas Website that is built in React as a Progressive Web App. Also allowing it to be mobile responsive. The next phase will to turn port it over to React Native to be released in the Android and Apple stores."
     },
     {
-      "fName": "Tianna McCoy",
+      "fullName": "Tianna McCoy",
       "email": "tianna.m.mccoy@gmail.com",
       "phoneNumber": "4792220121",
       "desc": "Code for Arknasas Website that is built in React as a Progressive Web App. Also allowing it to be mobile responsive. The next phase will to turn port it over to React Native to be released in the Android and Apple stores.",
@@ -53,13 +57,13 @@
   "questions": [
     {
       "id": "1",
-      "fName": "Tianna McCoy",
+      "fullName": "Tianna McCoy",
       "email": "tianna.m.mccoy@gmail.com",
       "subject": "New Question",
-      "message": "People will be able to submit thier questions to CFA"
+      "message": "People will be able to submit thier questions to CFAR"
     },
     {
-      "fName": "Tianna McCoy",
+      "fullName": "Tianna McCoy",
       "email": "tianna.m.mccoy@gmail.com",
       "subject": "Testing Question functionality",
       "message": "Does pinapple go on pizza?",

@@ -19,20 +19,8 @@ export const NavMapData = [
     cName: "nav-text",
   },
   {
-    title: "About",
-    path: "/about",
-    icon: <IoIcons.IoMdContact />,
-    cName: "nav-text",
-  },
-  {
-    title: "Contact",
-    path: "/contact",
-    icon: <FaIcons.FaPaperPlane />,
-    cName: "nav-text",
-  },
-  {
     title: "Admin",
-    path: "/adminhome",
+    path: "/admin/#",
     icon: <RiIcons.RiAdminFill />,
     cName: "nav-text",
   },
