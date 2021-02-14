@@ -22,4 +22,9 @@ export const fetchPosts = async () => {
   return data;
 };
 
+export const fetchUsers = async () => {
+  const { data } = await axiosInstance.get("/users");
+  return data;
+};
+
 

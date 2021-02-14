@@ -170,12 +170,17 @@ ul {
 `
 const PostWrapper = styled.div`
 height: 100%;
-width: 75%;
+width: 100%;
 margin: auto;
 color: whitesmoke;
 display: flex;
 flex-direction: column;
 justify-content: center;
+
+.whitespace {
+  height: 150px;
+}
+
 h1 {
   display: flex;
   justify-content: center;
@@ -183,10 +188,12 @@ h1 {
 }
 
 div {
-  display: flex;
   flex-wrap: wrap;
-  width: 89%;
-  justify-content: center;
+  display: flex;
+
+}
+@media screen and (min-width: 791px) {
+  width: 75%;
 }
 `
 
@@ -199,20 +206,50 @@ background-color: #060b46;
 border-radius: 1em;
 width: 100%;
 height: 100%;
-padding: 10px;
 margin: 15px;
+padding: 10px;
+
 div {
   width: 100%;
   h3 {
-    font-size: 2.3em;
-  } 
+    font-size: 2em;
+  }
+  h5 {
+    width: 100%;
+  }
   span {
     margin: 5px;
     padding: 30px;
     width: 100%;
   }
 }
+.postHead {
+  margin: 5px;
+  img {
+    width: 75px;
+    height: 75px;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    span {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+@media screen and (min-width: 791px) {
+width: 45%;
 
+.postHead {
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+}
 `
 
 export {

@@ -3,6 +3,7 @@
     {
       "id": "1",
       "author": "Tianna McCoy",
+      "userRole": "Admin",
       "title": "Introduction",
       "body": "This is the beginning of our story.",
       "publishedAt": "2/13/2021"
@@ -10,6 +11,7 @@
     {
       "id": "2",
       "author": "Tianna McCoy",
+      "userRole": "Admin",
       "title": "Testing Local Storage",
       "body": "This will confirm that I am able to make post requests to the local database",
       "publishedAt": "2/13/2021"
@@ -17,6 +19,7 @@
     {
       "title": "Testing id genorator",
       "author": "Tianna McCoy",
+      "userRole": "Admin",
       "body": "This will confirm that I am able to make post requests to the local database, and create id's",
       "publishedAt": "2/13/2021",
       "id": "ofLyxfd"
@@ -24,6 +27,8 @@
     {
       "title": "testing",
       "author": "Tianna McCoy",
+      "userRole": "Admin",
+      "profilePicture": "https://www.facebook.com/photo?fbid=2700175803565911&set=a.1384498695133635",
       "body": "Testing adding posts from admin",
       "publishedAt": "2021-02-13",
       "id": "FHrjkSO"
