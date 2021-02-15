@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { fetchPosts, fetchUsers } from '../../api/Api'
+import { fetchPosts } from '../../api/Api'
 import { NewsWrapper, PostWrapper } from '../../Styles';
 import ProPic from '../../img/profilePhoto.png'
 
